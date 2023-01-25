@@ -5,13 +5,13 @@ html {
 
 #calc {
     display: flex;
-    min-height: 95vh;
+    min-height: 90vh;
     justify-content: center;
     align-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     overflow: hidden;
-    background-color: azure;
+    background-color: black;
 }
 
 #container {
@@ -22,6 +22,15 @@ html {
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(100px, auto) repeat(5, 80px);
     gap: 2px;
+}
+
+h1
+{
+    background-color: black;
+    color: whitesmoke;
+    padding: 0;
+    margin-bottom: 0;
+
 }
 
 #display {
