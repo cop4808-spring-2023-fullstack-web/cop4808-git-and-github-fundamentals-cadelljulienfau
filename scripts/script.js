@@ -41,12 +41,26 @@ function clickButton() {
             } else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('clear'))
+            } else if(buttons[i].classList.contains('clear')){
                 clearDisplay();
                 updateDisplay();
+            } else if(buttons[i].classList.contains('logx')) {
+                logx(displayValue);
+                updateDisplay();
+            } else if(buttons[i].classList.contains('sinx')) {
+                sinx(displayValue);
+                updateDisplay();
+            } else if(buttons[i].classList.contains('cosx')) {
+                cosx(displayValue);
+                updateDisplay();
+            } else if(buttons[i].classList.contains('tanx')) {
+                tanx(displayValue);
+                updateDisplay();
+            }
         }
     )}
 }
+
 
 clickButton();
 
