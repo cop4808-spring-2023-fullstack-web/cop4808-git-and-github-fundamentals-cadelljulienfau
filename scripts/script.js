@@ -44,7 +44,7 @@ function clickButton() {
             } else if(buttons[i].classList.contains('clear')){
                 clearDisplay();
                 updateDisplay();
-            } else if(buttons[i].classList.contains('logx')) {
+            } else if(buttons[i].classList.contains('logx')) { 
                 logx(displayValue);
                 updateDisplay();
             } else if(buttons[i].classList.contains('sinx')) {
@@ -197,7 +197,7 @@ function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
 }
 
-function ln(num) {
+function logx(num) {
     return displayValue = Math.log(num).toFixed(9);
 }
 
