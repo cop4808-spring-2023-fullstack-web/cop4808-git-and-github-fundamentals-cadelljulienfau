@@ -64,6 +64,17 @@ button {
 
 .operator {
     background-color: #FF8F1F;    
+    font-weight: bold;   
+}
+
+.operator2 {
+    background-color:rgb(130, 155, 52);   
+    font-weight: bold;    
+}
+
+.operator3 {
+    background-color: #8a518a; 
+    font-weight: bold;   
 }
 
 .operator:focus {
