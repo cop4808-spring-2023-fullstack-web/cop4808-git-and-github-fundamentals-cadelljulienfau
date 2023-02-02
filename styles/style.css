@@ -67,25 +67,15 @@ button {
     font-weight: bold;   
 }
 
-#op {
+.logx {
     background-color:rgb(130, 155, 52);   
     font-weight: bold;    
 }
 
-#op2 {
+.sinx, .cosx, .tanx {
     background-color: #bab71e; 
     font-weight: bold;   
 }
-
-#op3 {
-    background-color: #c670c6; 
-    font-weight: bold;   
-}
-#op4 {
-    background-color: #8a518a; 
-    font-weight: bold;   
-}
-
 .operator:focus {
     background-color: #ffc183;
 }
