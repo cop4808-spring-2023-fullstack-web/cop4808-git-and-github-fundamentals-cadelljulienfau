@@ -67,12 +67,21 @@ button {
     font-weight: bold;   
 }
 
-.operator2 {
+#op {
     background-color:rgb(130, 155, 52);   
     font-weight: bold;    
 }
 
-.operator3 {
+#op2 {
+    background-color: #bab71e; 
+    font-weight: bold;   
+}
+
+#op3 {
+    background-color: #c670c6; 
+    font-weight: bold;   
+}
+#op4 {
     background-color: #8a518a; 
     font-weight: bold;   
 }

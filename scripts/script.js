@@ -170,6 +170,14 @@ function operate(x, y, op) {
         return x - y;
     } else if(op === '*') {
         return x * y;
+    } else if(op === 'π') {
+        return x * x;
+    } else if(op === '^2') {
+        return x * x;
+    } else if(op === 'log') {
+        return Math.log(x);
+    } else if(op === 'e') {
+        return Math.exp(x);    
     } else if(op === '/') {
         if(y === 0) {
             return 'lmao';
