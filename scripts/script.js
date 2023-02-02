@@ -182,3 +182,19 @@ function operate(x, y, op) {
 function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
 }
+
+function ln(num) {
+    return displayValue = Math.log(num).toFixed(9);
+}
+
+function sinx(num) {
+    return displayValue = Math.sin(num).toFixed(9);
+}
+
+function cosx(num) {
+    return displayValue = Math.cos(num).toFixed(9);
+}
+
+function tanx(num) {
+    return displayValue = Math.tan(num).toFixed(9);
+}
