@@ -3,6 +3,9 @@
 ## Upgraded Calc by Cadell Julien
 ### Due Feb, 05, 2023
 
+### GIF:
+![](https://github.com/cadelljulienfau/GIF.git/H2 GIF.gif)
+
 ### Summary:
 For this homework I took homework 1 and upgraded it. These upgrades included adding buttons using html called ln, sin, cos, and tan and which I then added data-key for key log so keyboard can be used. Now with the buttons added, I beautified  the css to pretty it up. Since it is pretty I made those buttons functions for them using the math function and then added it to sub function for click button.
 
@@ -12,4 +15,6 @@ Create a new CSS class with a different background color for these new buttons a
 
 ### Logic:
 Logic was to start off having the button tag at top for html. Then to make it look good, With that a I made a function for the math to go with the button then added said math function to a clickbutton function, where on click its able to to push out the math function.
+
+
 
