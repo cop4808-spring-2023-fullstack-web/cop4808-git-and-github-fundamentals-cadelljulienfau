@@ -5,12 +5,12 @@ let firstOperator = null;
 let secondOperator = null;
 let result = null;
 const buttons = document.querySelectorAll('button');
-
+//It's a key logger that listens for specific keys to go with data key i set
 window.addEventListener('keydown', function(e){
     const key = document.querySelector(`button[data-key='${e.keyCode}']`);
     key.click();
 });
-
+//Updates the value after an operand or operator is clicked
 function updateDisplay() {
     const display = document.getElementById('display');
     display.innerText = displayValue;
@@ -20,7 +20,7 @@ function updateDisplay() {
 }
   
 updateDisplay();
-
+//Similar to the addEventListener, it listens for click events on the buttons
 function clickButton() {
     for(let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', function() {
@@ -63,7 +63,7 @@ function clickButton() {
 
 
 clickButton();
-
+//For numbers
 function inputOperand(operand) {
     if(firstOperator === null) {
         if(displayValue === '0' || displayValue === 0) {
@@ -84,7 +84,7 @@ function inputOperand(operand) {
         }
     }
 }
-
+//For math
 function inputOperator(operator) {
     if(firstOperator != null && secondOperator === null) {
         //4th click - handles input of second operator
@@ -108,7 +108,7 @@ function inputOperator(operator) {
         firstOperand = displayValue;
     }
 }
-
+//Get the total value after operatins
 function inputEquals() {
     //hitting equals doesn't display undefined before operate()
     if(firstOperator === null) {
@@ -143,7 +143,7 @@ function inputEquals() {
         }
     }
 }
-
+//For turning integer into decimal
 function inputDecimal(dot) {
     if(displayValue === firstOperand || displayValue === secondOperand) {
         displayValue = '0';
@@ -152,15 +152,15 @@ function inputDecimal(dot) {
         displayValue += dot;
     } 
 }
-
+//For finding percentage
 function inputPercent(num) {
     displayValue = (num/100).toString();
 }
-
+//For changing sign incase you have a negative number you want to add
 function inputSign(num) {
     displayValue = (num * -1).toString();
 }
-
+//Clears calc display
 function clearDisplay() {
     displayValue = '0';
     firstOperand = null;
@@ -176,7 +176,7 @@ function inputBackspace() {
         updateDisplay();
     }
 }
-
+//For operator function
 function operate(x, y, op) {
     if(op === '+') {
         return x + y;
@@ -192,23 +192,23 @@ function operate(x, y, op) {
         }
     }
 }
-
+//To round accurately
 function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
 }
-
+//For natural logarithm
 function logx(num) {
     return displayValue = Math.log(num).toFixed(9);
 }
-
+//For sin
 function sinx(num) {
     return displayValue = Math.sin(num).toFixed(9);
 }
-
+//For cos
 function cosx(num) {
     return displayValue = Math.cos(num).toFixed(9);
 }
-
+//For tan
 function tanx(num) {
     return displayValue = Math.tan(num).toFixed(9);
 }
