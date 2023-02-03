@@ -11,5 +11,5 @@ The Objectives for this homework was to Add a new row of buttons at the top of t
 Create a new CSS class with a different background color for these new buttons and buttons should be the same size as the others and the text should be bold on the buttons. Implement 4 new functions - one for each button and implement them. Output result must stay within the digital readout. 
 
 ### Logic:
+Logic was to start off having the button tag at top for html. Then to make it look good, With that a I made a function for the math to go with the button then added said math function to a clickbutton function, where on click its able to to push out the math function.
 
-### Resources:
