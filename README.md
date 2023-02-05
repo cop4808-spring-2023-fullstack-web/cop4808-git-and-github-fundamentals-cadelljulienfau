@@ -4,7 +4,7 @@
 ### Due Feb, 05, 2023
 
 ### GIF:
-![](https://github.com/cadelljulienfau/GIF.git/H2_GIF.gif)
+![H2_GIF](https://user-images.githubusercontent.com/123437478/216487777-babfccdf-71f4-49fd-9bac-570e405a65ed.gif)
 
 ### Summary:
 For this homework I took homework 1 and upgraded it. These upgrades included adding buttons using html called ln, sin, cos, and tan and which I then added data-key for key log so keyboard can be used. Now with the buttons added, I beautified  the css to pretty it up. Since it is pretty I made those buttons functions for them using the math function and then added it to sub function for click button.
