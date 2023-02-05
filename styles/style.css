@@ -5,11 +5,11 @@ html {
 
 #calc {
     display: flex;
-    min-height: 90vh;
+    min-height: 95vh;
     justify-content: center;
     align-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     overflow: hidden;
     background-color: black;
 }
@@ -20,7 +20,7 @@ html {
     border-radius: 4px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    grid-template-rows: minmax(100px, auto) repeat(6, 80px);
     gap: 2px;
 }
 
